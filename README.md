@@ -20,3 +20,5 @@ This code requires Raspberry Pi Camera https://projects.raspberrypi.org/en/proje
   
  ## Hint:
   A better performance can be achieved when using sockets interprocess communication mechanism instead of pipes. To run the sockets version of the game, update the CMakeLists.txt to use picam-sockets.cpp instead of picam.cpp. Before running the executable file picamdemo, open a terminal and run the socket version of the game using `java -jar ./MFGame-orig-skt.jar`  
+
+For more documentation, refer to our journal paper.
